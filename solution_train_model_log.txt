@@ -1,0 +1,79 @@
+Epoch 1/10 - Train Loss: 6.7318
+Val Loss: 6.0905, ROUGE: 0.1250
+Tweet 1 generated after epoch 1: the weather today is amazing you healthy my mom
+
+Tweet 2 generated after epoch 1: i just watched a movie , it was hun though . time
+
+Tweet 3 generated after epoch 1: learning machine learning is fun and exciting weddings wish i get
+
+Epoch 2/10 - Train Loss: 6.0621
+Val Loss: 5.9105, ROUGE: 0.1315
+Tweet 1 generated after epoch 2: the weather today is amazing ' morning cold mojitos
+
+Tweet 2 generated after epoch 2: i just watched a movie , it was of on a true
+
+Tweet 3 generated after epoch 2: learning machine learning is fun and exciting . happened am in
+
+Epoch 3/10 - Train Loss: 6.0109
+Val Loss: 5.8629, ROUGE: 0.1366
+Tweet 1 generated after epoch 3: the weather today is amazing chest spring ' s
+
+Tweet 2 generated after epoch 3: i just watched a movie , it was watch can it stalkers
+
+Tweet 3 generated after epoch 3: learning machine learning is fun and exciting day of we have
+
+Epoch 4/10 - Train Loss: 5.9073
+Val Loss: 5.8732, ROUGE: 0.1410
+Tweet 1 generated after epoch 4: the weather today is amazing ? time to quite
+
+Tweet 2 generated after epoch 4: i just watched a movie , it was play finished update one
+
+Tweet 3 generated after epoch 4: learning machine learning is fun and exciting having a day feeling
+
+Epoch 5/10 - Train Loss: 5.9176
+Val Loss: 5.9312, ROUGE: 0.1466
+Tweet 1 generated after epoch 5: the weather today is amazing a that ' s
+
+Tweet 2 generated after epoch 5: i just watched a movie , it was fun just quite rainy
+
+Tweet 3 generated after epoch 5: learning machine learning is fun and exciting i were more hasn
+
+Epoch 6/10 - Train Loss: 6.0484
+Val Loss: 5.9877, ROUGE: 0.1503
+Tweet 1 generated after epoch 6: the weather today is amazing headache i think to
+
+Tweet 2 generated after epoch 6: i just watched a movie , it was so clas ka like
+
+Tweet 3 generated after epoch 6: learning machine learning is fun and exciting day 4 an my
+
+Epoch 7/10 - Train Loss: 6.0137
+Val Loss: 6.0257, ROUGE: 0.1497
+Tweet 1 generated after epoch 7: the weather today is amazing with my since broke
+
+Tweet 2 generated after epoch 7: i just watched a movie , it was just worked days weekend
+
+Tweet 3 generated after epoch 7: learning machine learning is fun and exciting by to need some
+
+Epoch 8/10 - Train Loss: 6.0844
+Val Loss: 6.0691, ROUGE: 0.1551
+Tweet 1 generated after epoch 8: the weather today is amazing amazing , you have
+
+Tweet 2 generated after epoch 8: i just watched a movie , it was t up first one
+
+Tweet 3 generated after epoch 8: learning machine learning is fun and exciting noise at 4 enjoy
+
+Epoch 9/10 - Train Loss: 6.2463
+Val Loss: 6.1460, ROUGE: 0.1492
+Tweet 1 generated after epoch 9: the weather today is amazing than pa and you
+
+Tweet 2 generated after epoch 9: i just watched a movie , it was bad it next g
+
+Tweet 3 generated after epoch 9: learning machine learning is fun and exciting first finished something on
+
+Epoch 10/10 - Train Loss: 6.2086
+Val Loss: 6.1846, ROUGE: 0.1544
+Tweet 1 generated after epoch 10: the weather today is amazing how y are you
+
+Tweet 2 generated after epoch 10: i just watched a movie , it was amazing is so home
+
+Tweet 3 generated after epoch 10: learning machine learning is fun and exciting u enjoy cant an
