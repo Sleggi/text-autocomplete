@@ -61,7 +61,7 @@ class LSTMModel(nn.Module):
         hidden = None
 
         for _ in range(max_len):
-            logits, hidden = self.forward(generated[:, -prompt.size(1):], hidden)
+            logits, hidden = self.forward(generated[:, -1:], hidden)
             next_token_logits = logits[:, -1, :] / temperature
             probs = F.softmax(next_token_logits, dim=-1)
             next_token = torch.multinomial(probs, num_samples=1)

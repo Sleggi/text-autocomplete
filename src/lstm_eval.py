@@ -49,16 +49,20 @@ def lstm_evaluate(model, val_loader, criterion, device, idx2word=None):
     avg_rouge = sum(rouge_f1_list) / len(rouge_f1_list) if rouge_f1_list else 0.0
     return avg_loss, avg_rouge
 
-def lstm_generate(texts, tokenizer, model, device):
+def lstm_generate(texts, tokenizer, model, device, max_len=10):
+    model.eval()
+    model = model.to(device)
+    
     with torch.no_grad():
         for text in texts:
-        
             encoding = tokenizer.encode(text)
             input_ids = torch.tensor([encoding.ids], device=device)
 
-            
-            generated = model.generate(input_ids, max_len=10)  
-            decoded_text = tokenizer.decode(generated[0].tolist(), skip_special_tokens=True)
+            generated = model.generate(input_ids, max_len=max_len)  
+            decoded_text = tokenizer.decode(
+                generated[0].tolist(), 
+                skip_special_tokens=True
+            )
 
             print(f"Prompt lstm: {text}")
             print(f"Generated lstm: {decoded_text}\n")
